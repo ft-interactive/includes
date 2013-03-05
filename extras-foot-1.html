@@ -1,0 +1,39 @@
+<!-- extras-foot-1 -->
+<script src="//d3nslu0hdya83q.cloudfront.net/dist/1.0/raven.min.js"></script>
+<script>
+	(function(){
+
+		var User = (window.User = window.User || {});
+
+		var m = document.cookie.match(/USERID\=\d{1,15}/g);
+
+		if (m && m.length && m[0].indexOf('=') !== -1) {
+			var id = m[0].split('=');
+			if (id.length > 1) {
+				id = id[1];
+				User.id = id;
+				var e = document.cookie.match(/EMAIL\=[A-Za-z0-9@\.\_\+]+/g);
+				if (e && e.length && e[0].indexOf('=') !== -1) {
+					var email = e[0].split('=');
+					if (email.length > 1) {
+						email = email[1];
+						User.email = email.toLowerCase();
+					}
+				}
+			}
+		}
+
+	})();
+
+	if (Raven) {
+
+		Raven.config('https://71e41c955c6941d2a111c73f422587bd@app.getsentry.com/6039').install();
+
+		if (User.id) {
+			Raven.setUser({
+			    id: User.id,
+			    email: User.email || ''
+			})
+		}
+	}
+</script>
