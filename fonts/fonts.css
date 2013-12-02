@@ -1,5 +1,6 @@
 /* THIS IS AN EXAMPLE CSS FILE TO DEMONSTRATE USE OF FT FONTS - DO NOT LINK TO THIS FILE IN YOU PROJECT */
 
+
 @font-face{
     font-family: "ft-icons";
     src: url("http://interactivegraphics.ft-static.com/inc/fonts/icons.woff") format("woff"),
@@ -10,40 +11,58 @@
 
 @font-face{
     font-family: "MillerDisplay";
-    src: url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Roman.woff") format("woff"),
-        url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Roman.ttf") format("truetype");
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Roman.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Roman.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Roman.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Roman.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face{
     font-family: "MillerDisplay";
-    src: url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Bold.woff") format("woff"),
-        url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Bold.ttf") format("truetype");
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Light.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Light.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Light.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Light.ttf") format("truetype");
     font-style: normal;
-    font-weight: bold; 
+    font-weight: 200;
 }
 
 @font-face{
     font-family: "MillerDisplay";
-    src: url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Italic.ttf") format("truetype"),
-        url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Roman.woff") format("woff");
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Bold.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Bold.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: "MillerDisplay";
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Italic.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Italic.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Italic.ttf") format("truetype");
     font-style: italic;
     font-weight: normal;
 }
 
 @font-face{
     font-family: "MillerDisplay";
-    src: url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-SemiboldItal.ttf") format("truetype"),
-        url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-Bold.woff") format("woff");
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-SemiboldItal.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-SemiboldItal.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-SemiboldItal.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/MillerDisplay-SemiboldItal.ttf") format("truetype");
     font-style: italic;
     font-weight: bold;
 }
 
 @font-face{
     font-family: "BentonSans";
-    src: url("http://s1.ft-static.com/m/font/e9d47971-b7d8-4663-8c9b-3a0b425e981f-2.eot");
-    src: url("http://s1.ft-static.com/m/font/e9d47971-b7d8-4663-8c9b-3a0b425e981f-2.eot?#iefix") format("embedded-opentype"), 
+    src: url("http://s1.ft-static.com/m/font/ft-velcro/bentonsans-regular.eot");
+    src: url("http://s1.ft-static.com/m/font/ft-velcro/bentonsans-regular.eot?#iefix") format("embedded-opentype"), 
     url("http://interactivegraphics.ft-static.com/inc/fonts/BentonSansRegular.woff") format("woff"),
     url("http://interactivegraphics.ft-static.com/inc/fonts/BentonSansRegular.ttf") format("truetype");
     font-style: normal;
@@ -52,8 +71,8 @@
 
 @font-face{
     font-family: "BentonSans";
-    src: url("http://s1.ft-static.com/m/font/76e393a7-edbd-4283-91db-93b1a40fe465-2.eot");
-    src: url("http://s1.ft-static.com/m/font/76e393a7-edbd-4283-91db-93b1a40fe465-2.eot?#iefix") format("embedded-opentype"), 
+    src: url("http://s1.ft-static.com/m/font/ft-velcro/bentonsans-bold.eot");
+    src: url("http://s1.ft-static.com/m/font/ft-velcro/bentonsans-bold.eot?#iefix") format("embedded-opentype"), 
     url("http://interactivegraphics.ft-static.com/inc/fonts/BentonSansBold.woff") format("woff"),
     url("http://interactivegraphics.ft-static.com/inc/fonts/BentonSansBold.ttf") format("truetype");
     font-style: normal;
@@ -62,12 +81,15 @@
 
 @font-face{
     font-family: "BentonSans";
-    src: url("http://interactivegraphics.ft-static.com/inc/fonts/BentonSansLight.woff") format("woff"),
-        url("http://interactivegraphics.ft-static.com/inc/fonts/BentonSansLight.ttf") format("truetype");
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonSansLight.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonSansLight.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonSansLight.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonSansLight.ttf") format("truetype");
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 200;
 }
 
+/* eot is not included with clarion because it's better to use Georgia for old IE versions */
 @font-face{
     font-family: "Clarion";
     src: url("http://interactivegraphics.ft-static.com/inc/fonts/Clarion.woff") format("woff"),
