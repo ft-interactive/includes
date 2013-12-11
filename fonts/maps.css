@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "BentonGraphicsSansCondensed";
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Regular.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Regular.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "BentonGraphicsSansCondensed";
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-RegularItal.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-RegularItal.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-RegularItal.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-RegularItal.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "BentonGraphicsSansCondensed";
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Medium.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Medium.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: "BentonGraphicsSansCondensed";
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-MediumItal.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-MediumItal.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-MediumItal.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-MediumItal.ttf") format("truetype");
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: "BentonGraphicsSansCondensed";
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Light.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Light.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Light.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: "BentonGraphicsSansCondensed";
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-LightItal.eot');
+    src: url('http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-LightItal.eot?#iefix') format('embedded-opentype'),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-LightItal.woff") format("woff"),
+         url("http://interactivegraphics.ft-static.com/inc/fonts/BentonGraphicsSansCondensed-LightItal.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 200;
+}
